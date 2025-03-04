@@ -98,6 +98,10 @@ function checkWord(){
 }
 
 function gameState(){
+	if (score == 5){
+		alert('Congrats! You have guessed the word correctly! :D The word was: ' + exactWord);
+		finishGame = true;
+	}
 	
 	if (health == 0){
 		if (score == 5){
@@ -108,6 +112,7 @@ function gameState(){
 			loseGame = true;
 		}
 	}
+}
 	
 	document.getElementById('attempts').innerHTML = 'You have ' + health + ' lives left.';
 	
