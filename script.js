@@ -1,6 +1,6 @@
 let wordSelection = [ "ABUSE", "ADOPT", "AGILE", "ARGOT", "AUGER", "BAKED", "BILGE", "BIRCH", "BLIMP", "BLOKE","BORAX", "BRAVE", "BROWS", "CHEAP", "CHOKE","CIDAR", "COMBI", "COVEN", "CRANE", "DOWRY",
-					  "FEAST", "FETCH", "FJORD", "FLASK", "FUNGI", "GLOVE", "GNASH", "GOLEM", "GRIME", "HACKS", "HIKED", "HOARY", "HORNS", "JUICE", "JUJUE", "LAPSE", "LIVER", "LOWER", "MAIZE", "MANIC",
-					  "MOVIE", "MUSED", "NICER", "PIXEL", "PROVE", "PURGE", "QORMA", "RIVEN", "SERUM", "VERBS" ];
+			"FEAST", "FETCH", "FJORD", "FLASK", "FUNGI", "GLOVE", "GNASH", "GOLEM", "GRIME", "HACKS", "HIKED", "HOARY", "HORNS", "JUICE", "JUJUE", "LAPSE", "LIVER", "LOWER", "MAIZE", "MANIC",
+			"MOVIE", "MUSED", "NICER", "PIXEL", "PROVE", "PURGE", "QORMA", "RIVEN", "SERUM", "VERBS" ];
 
 function getRandWord(array){
 		let index = Math.floor(Math.random()*array.length);
