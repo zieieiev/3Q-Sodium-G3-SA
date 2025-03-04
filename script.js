@@ -12,14 +12,15 @@ var score = 0;
 var health = 5;
 let row = 0;
 let finishGame = false;
+let loseGame = false;
 
 let exactWord = getRandWord(wordSelection);
 
 function checkWord(){
-	if (health == -1){
+	if (loseGame == true){
 		alert('You have already lost! Please restart.');
 	} else if (finishGame == true){
-		alert('You have already finished the game! Please restart.');
+		alert('You have already guessed the word! Please restart.');
 	} else {
 	
 		let w = prompt("Enter a word: ").toUpperCase();
@@ -97,14 +98,15 @@ function checkWord(){
 }
 
 function gameState(){
-	if (score == 5){
-		alert('Congrats! You have guessed the word correctly! :D');
-		finishGame = true;
-	}
 	
 	if (health == 0){
-		alert('You have lost! The word was: ' + exactWord);
-		health = -1;
+		if (score == 5){
+			alert('Congrats! You have guessed the word correctly! :D The word was: ' + exactWord);
+			finishGame = true;
+		} else {
+			alert('You have lost! The word was: ' + exactWord);
+			loseGame = true;
+		}
 	}
 	
 	document.getElementById('attempts').innerHTML = 'You have ' + health + ' lives left.';
