@@ -1,6 +1,6 @@
 let wordSelection = [ "ABUSE", "ADOPT", "AGILE", "ARGOT", "AUGER", "BAKED", "BILGE", "BIRCH", "BLIMP", "BLOKE","BORAX", "BRAVE", "BROWS", "CHEAP", "CHOKE","CIDAR", "COMBI", "COVEN", "CRANE", "DOWRY",
-			"FEAST", "FETCH", "FJORD", "FLASK", "FUNGI", "GLOVE", "GNASH", "GOLEM", "GRIME", "HACKS", "HIKED", "HOARY", "HORNS", "JUICE", "JUJUE", "LAPSE", "LIVER", "LOWER", "MAIZE", "MANIC",
-			"MOVIE", "MUSED", "NICER", "PIXEL", "PROVE", "PURGE", "QORMA", "RIVEN", "SERUM", "VERBS" ];
+					  "FEAST", "FETCH", "FJORD", "FLASK", "FUNGI", "GLOVE", "GNASH", "GOLEM", "GRIME", "HACKS", "HIKED", "HOARY", "HORNS", "JUICE", "JUJUE", "LAPSE", "LIVER", "LOWER", "MAIZE", "MANIC",
+					  "MOVIE", "MUSED", "NICER", "PIXEL", "PROVE", "PURGE", "QORMA", "RIVEN", "SERUM", "VERBS" ];
 
 function getRandWord(array){
 		let index = Math.floor(Math.random()*array.length);
@@ -36,8 +36,8 @@ function checkWord(){
 			document.getElementById('r-' + row + '-0').style.backgroundColor = 'yellow';
 			document.getElementById('r-' + row + '-0').style.border = 'yellow';
 		} else {
-			document.getElementById('r-' + row + '-0').style.backgroundColor = 'grey';
-			document.getElementById('r-' + row + '-0').style.border = 'grey';
+			document.getElementById('r-' + row + '-0').style.backgroundColor = '#D3D3D3';
+			document.getElementById('r-' + row + '-0').style.border = '#D3D3D3';
 		}
 		
 		document.getElementById('r-' + row + '-0').innerHTML = w[0];
@@ -50,8 +50,8 @@ function checkWord(){
 			document.getElementById('r-' + row + '-1').style.backgroundColor = 'yellow';
 			document.getElementById('r-' + row + '-1').style.border = 'yellow';
 		} else {
-			document.getElementById('r-' + row + '-1').style.backgroundColor = 'grey';
-			document.getElementById('r-' + row + '-1').style.border = 'grey';
+			document.getElementById('r-' + row + '-1').style.backgroundColor = '#D3D3D3';
+			document.getElementById('r-' + row + '-1').style.border = '#D3D3D3';
 		}
 		
 		document.getElementById('r-' + row + '-1').innerHTML = w[1];
@@ -64,8 +64,8 @@ function checkWord(){
 			document.getElementById('r-' + row + '-2').style.backgroundColor = 'yellow';
 			document.getElementById('r-' + row + '-2').style.border = 'yellow';
 		} else {
-			document.getElementById('r-' + row + '-2').style.backgroundColor = 'grey';
-			document.getElementById('r-' + row + '-2').style.border = 'grey';
+			document.getElementById('r-' + row + '-2').style.backgroundColor = '#D3D3D3';
+			document.getElementById('r-' + row + '-2').style.border = '#D3D3D3';
 		}
 		
 		document.getElementById('r-' + row + '-2').innerHTML = w[2];
@@ -78,8 +78,8 @@ function checkWord(){
 			document.getElementById('r-' + row + '-3').style.backgroundColor = 'yellow';
 			document.getElementById('r-' + row + '-3').style.border = 'yellow';
 		} else {
-			document.getElementById('r-' + row + '-3').style.backgroundColor = 'grey';
-			document.getElementById('r-' + row + '-3').style.border = 'grey';
+			document.getElementById('r-' + row + '-3').style.backgroundColor = '#D3D3D3';
+			document.getElementById('r-' + row + '-3').style.border = '#D3D3D3';
 		}
 		
 		document.getElementById('r-' + row + '-3').innerHTML = w[3];
@@ -92,8 +92,8 @@ function checkWord(){
 			document.getElementById('r-' + row + '-4').style.backgroundColor = 'yellow';
 			document.getElementById('r-' + row + '-4').style.border = 'yellow';
 		} else {
-			document.getElementById('r-' + row + '-4').style.backgroundColor = 'grey';
-			document.getElementById('r-' + row + '-4').style.border = 'grey';
+			document.getElementById('r-' + row + '-4').style.backgroundColor = '#D3D3D3';
+			document.getElementById('r-' + row + '-4').style.border = '#D3D3D3';
 		}
 		
 		document.getElementById('r-' + row + '-4').innerHTML = w[4];
