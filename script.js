@@ -35,7 +35,7 @@ function checkWord(){
 		} else if (w[0]!=exactWord[0] && exactWord.indexOf(w[0])!== -1){
 			document.getElementById('r-' + row + '-0').style.backgroundColor = 'yellow';
 		} else {
-			document.getElementById('r-' + row + '-0').style.backgroundColor = 'grey';
+			document.getElementById('r-' + row + '-0').style.backgroundColor = '#D3D3D3';
 		}
 		
 		document.getElementById('r-' + row + '-0').innerHTML = w[0];
@@ -46,7 +46,7 @@ function checkWord(){
 		} else if (w[1]!=exactWord[1] && exactWord.indexOf(w[1])!== -1){
 			document.getElementById('r-' + row + '-1').style.backgroundColor = 'yellow';
 		} else {
-			document.getElementById('r-' + row + '-1').style.backgroundColor = 'grey';
+			document.getElementById('r-' + row + '-1').style.backgroundColor = '#D3D3D3';
 		}
 		
 		document.getElementById('r-' + row + '-1').innerHTML = w[1];
@@ -57,7 +57,7 @@ function checkWord(){
 		} else if (w[2]!=exactWord[2] && exactWord.indexOf(w[2])!== -1){
 			document.getElementById('r-' + row + '-2').style.backgroundColor = 'yellow';
 		} else {
-			document.getElementById('r-' + row + '-2').style.backgroundColor = 'grey';
+			document.getElementById('r-' + row + '-2').style.backgroundColor = '#D3D3D3';
 		}
 		
 		document.getElementById('r-' + row + '-2').innerHTML = w[2];
@@ -68,7 +68,7 @@ function checkWord(){
 		} else if (w[3]!=exactWord[3] && exactWord.indexOf(w[3])!== -1){
 			document.getElementById('r-' + row + '-3').style.backgroundColor = 'yellow';
 		} else {
-			document.getElementById('r-' + row + '-3').style.backgroundColor = 'grey';
+			document.getElementById('r-' + row + '-3').style.backgroundColor = '#D3D3D3';
 		}
 		
 		document.getElementById('r-' + row + '-3').innerHTML = w[3];
@@ -79,7 +79,7 @@ function checkWord(){
 		} else if (w[4]!=exactWord[4] && exactWord.indexOf(w[4])!== -1){
 			document.getElementById('r-' + row + '-4').style.backgroundColor = 'yellow';
 		} else {
-			document.getElementById('r-' + row + '-4').style.backgroundColor = 'grey';
+			document.getElementById('r-' + row + '-4').style.backgroundColor = '#D3D3D3';
 		}
 		
 		document.getElementById('r-' + row + '-4').innerHTML = w[4];
