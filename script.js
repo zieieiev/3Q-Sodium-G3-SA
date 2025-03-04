@@ -11,12 +11,15 @@ function getRandWord(array){
 var score = 0;
 var health = 5;
 let row = 0;
+let finishGame = false;
 
 let exactWord = getRandWord(wordSelection);
 
 function checkWord(){
 	if (health == -1){
 		alert('You have already lost! Please restart.');
+	} else if (finishGame == true){
+		alert('You have already finished the game! Please restart.');
 	} else {
 	
 		let w = prompt("Enter a word: ").toUpperCase();
@@ -96,7 +99,7 @@ function checkWord(){
 function gameState(){
 	if (score == 5){
 		alert('Congrats! You have guessed the word correctly! :D');
-		health = -1;
+		finishGame = true;
 	}
 	
 	if (health == 0){
